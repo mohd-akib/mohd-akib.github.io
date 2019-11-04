@@ -6,10 +6,19 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2019 13:29:35 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 14:31:27 +0530</lastBuildDate>
     
 	<atom:link href="mohd-akib.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Run Two Instance of Same Application in Intellij</title>
+      <link>mohd-akib.github.io/posts/run-two-instance-of-same-application-in-intellij/</link>
+      <pubDate>Mon, 04 Nov 2019 14:31:27 +0530</pubDate>
+      
+      <guid>mohd-akib.github.io/posts/run-two-instance-of-same-application-in-intellij/</guid>
+      <description>&amp;rdquo;&amp;rsquo; At times we need multiple instances of same application.&amp;ldquo;&amp;rsquo;</description>
+    </item>
     
     <item>
       <title>My First Post</title>
