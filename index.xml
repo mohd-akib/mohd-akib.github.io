@@ -12,12 +12,14 @@
     
     
     <item>
-      <title>Run Two Instance of Same Application in Intellij</title>
+      <title>Run Two Instance of Same Springboot Application in Intellij</title>
       <link>mohd-akib.github.io/posts/run-two-instance-of-same-application-in-intellij/</link>
       <pubDate>Mon, 04 Nov 2019 14:31:27 +0530</pubDate>
       
       <guid>mohd-akib.github.io/posts/run-two-instance-of-same-application-in-intellij/</guid>
-      <description>&amp;rdquo;&amp;rsquo; At times we need multiple instances of same application.&amp;ldquo;&amp;rsquo;</description>
+      <description>Suppose i want to run two instances of my application. For this :
+Run(top bar)-&amp;gt; Edit Configuration
+Using left top corner + sign add configuration by choosing Application. Now you&amp;rsquo;ll have your existing application configuration and one &amp;ldquo;unnamed&amp;rdquo; configuration. Fill the &amp;ldquo;unnamed&amp;rdquo; configuration fields by copying from your application configuration of which you want to run another instance. Only two fields will differ - Name, VM options. In VM options in both the existing configuration and new configuration fill the field as -Dserver.</description>
     </item>
     
     <item>

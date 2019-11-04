@@ -123,11 +123,13 @@
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="mohd-akib.github.io/posts/run-two-instance-of-same-application-in-intellij/" class="color-inherit dim link">
-            Run Two Instance of Same Application in Intellij
+            Run Two Instance of Same Springboot Application in Intellij
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          &rdquo;&rsquo; At times we need multiple instances of same application.&ldquo;&rsquo;
+          Suppose i want to run two instances of my application. For this :
+Run(top bar)-&gt; Edit Configuration
+Using left top corner + sign add configuration by choosing Application. Now you&rsquo;ll have your existing application configuration and one &ldquo;unnamed&rdquo; configuration. Fill the &ldquo;unnamed&rdquo; configuration fields by copying from your application configuration of which you want to run another instance. Only two fields will differ - Name, VM options. In VM options in both the existing configuration and new configuration fill the field as -Dserver.
         </div>
           <a href="mohd-akib.github.io/posts/run-two-instance-of-same-application-in-intellij/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
