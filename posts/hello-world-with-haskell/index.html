@@ -134,18 +134,18 @@ It&rsquo;s strongly and statically typed :-</p>
 <p>As soon as you hit stack ghci command interactive shell starts by loading prelude module.
 Prelude is a module that contains a small set of standard definitions and is included automatically into all Haskell modules.</p>
 
-<pre><code>Prelude&gt;
+<pre><code class="language-haskell">Prelude&gt;
 </code></pre>
 
 <p>That&rsquo;s all folks , you&rsquo;re ready to play with haskell.</p>
 
-<pre><code>Prelude&gt; 2+2
+<pre><code class="language-haskell">Prelude&gt; 2+2
 4
 </code></pre>
 
 <p>to write multiple lines in the interactive shell you&rsquo;ll have to use :{ in the beginning and :} at the end.</p>
 
-<pre><code>Prelude&gt; :{
+<pre><code class="language-haskell">Prelude&gt; :{
 Prelude| 2+2
 Prelude| :}
 4
@@ -155,18 +155,18 @@ Prelude| :}
 
 <p>for example:-</p>
 
-<pre><code>x :: Integer
+<pre><code class="language-haskell">x :: Integer
 </code></pre>
 
 <p>is read as x is a variable of type integer</p>
 
-<pre><code>fun :: Integer -&gt; Integer
+<pre><code class="language-haskell">fun :: Integer -&gt; Integer
 
 </code></pre>
 
 <p>fun is a function that takes an integer and gives an integer as output.</p>
 
-<pre><code>fun :: Integer -&gt; Integer -&gt; Integer
+<pre><code class="language-haskell">fun :: Integer -&gt; Integer -&gt; Integer
 
 </code></pre>
 
@@ -174,32 +174,32 @@ Prelude| :}
 
 <p>Okay, Let&rsquo;s write Hello world in a file named hello.hs(hs is extension for haskell program files).</p>
 
-<pre><code>
+<pre><code class="language-haskell">
 helloWorld :: IO()
 helloWorld = putStrLn &quot;Hello, World!&quot;
 
 </code></pre>
 
-<pre><code>helloWorld :: IO()
+<pre><code class="language-haskell">helloWorld :: IO()
 </code></pre>
 
 <p>can be read as &ldquo;hello is a function that does some IO operation&rdquo;.</p>
 
 <p>and the definition is</p>
 
-<pre><code>helloWorld = putStrLn &quot;Hello, World!&quot;
+<pre><code class="language-haskell">helloWorld = putStrLn &quot;Hello, World!&quot;
 </code></pre>
 
 <p>we can load any haskell code written in file using :load file_name</p>
 
-<pre><code>:load hello.hs
+<pre><code class="language-haskell">:load hello.hs
 </code></pre>
 
 <p>now our file is loaded in the environemnt. Now we can call any function written in the hello.hs file.</p>
 
 <p>since it is having no arguments so we can call it with function name only, otherwise we&rsquo;d have to pass the variables also.</p>
 
-<pre><code>*Main&gt; helloWorld 
+<pre><code class="language-haskell">*Main&gt; helloWorld 
 Hello, World!
 
 </code></pre>
