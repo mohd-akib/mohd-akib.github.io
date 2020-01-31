@@ -18,7 +18,7 @@
       
       <guid>mohd-akib.github.io/posts/hello-world-with-haskell/</guid>
       <description>I&amp;rsquo;ve mostly worked with imperative languages like (C/C++/Java/Python). This is the first time i&amp;rsquo;m learning any functional programming language (Haskell). It is really giving me new dimensions of reasoning about programs. It&amp;rsquo;s strongly and statically typed :-
-Every function or variable must have types defined prior to compilation.  Codes written in haskell are very much compact.
+Every function or variable types are known at compile time.  Codes written in haskell are very much compact.
 So without wasting time lets start by installing it.
 curl -sSL https://get.haskellstack.org/ | sh  After this tools stack(tool to build haskell projects) and GHCi (glasgow haskell compiler interactive) will be available on your machine.</description>
     </item>
