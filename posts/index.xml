@@ -6,10 +6,21 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Nov 2019 14:31:27 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 13:24:42 +0530</lastBuildDate>
     
 	<atom:link href="mohd-akib.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hello World With Haskell</title>
+      <link>mohd-akib.github.io/posts/hello-world-with-haskell/</link>
+      <pubDate>Fri, 31 Jan 2020 13:24:42 +0530</pubDate>
+      
+      <guid>mohd-akib.github.io/posts/hello-world-with-haskell/</guid>
+      <description>I&amp;rsquo;ve mostly worked with imperative languages like (C/C++/Java/Python). This is the first time i&amp;rsquo;m learning any functional programming language (Haskell). It is really giving me new dimensions of reasoning about programs. It is strictly typed :-
+Every function or variable must have types defined prior to compilation.  which prevents failing code on runtime. Compactness and lazy evaluation are some of the things that i&amp;rsquo;m falling in love with.
+So without wasting time lets start by installing it.</description>
+    </item>
     
     <item>
       <title>Run Multiple Instances of Same Springboot Application in Intellij</title>
